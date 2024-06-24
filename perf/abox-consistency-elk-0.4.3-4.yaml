@@ -1,0 +1,11 @@
+runs:
+  - total_time: 33.933277125
+    models_per_second: 135.26544999151776
+    inconsistent: 36
+  - total_time: 33.489076125
+    models_per_second: 137.05961857136782
+    inconsistent: 36
+  - total_time: 33.615774292
+    models_per_second: 136.54303958996846
+    inconsistent: 36
+average: 136.28936938428467

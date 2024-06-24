@@ -1,0 +1,12 @@
+query_count: 66169
+  - total_time: 2749.055846958
+    queries_per_second: 24.069718362840856
+    total_subclasses_result: 1526774
+  - total_time: 2758.048553042
+    queries_per_second: 23.991238271356263
+    total_subclasses_result: 1526774
+  - total_time: 2752.756072541
+    queries_per_second: 24.037364102123682
+    total_subclasses_result: 1526774
+average: 24.0327735787736
+parallelism: 1
