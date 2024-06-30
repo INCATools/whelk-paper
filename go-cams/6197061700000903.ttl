@@ -1,0 +1,928 @@
+
+<http://model.geneontology.org/6197061700000903> a <http://www.w3.org/2002/07/owl#Ontology> .
+
+<http://geneontology.org/lego/evidence> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/hint/layout/x> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/hint/layout/y> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/modelstate> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.obolibrary.org/obo/ECO_0000314> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/RO_0002333> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://purl.org/pav/providedBy> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<https://w3id.org/biolink/vocab/in_taxon> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://geneontology.org/lego/evidence-with> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.obolibrary.org/obo/BFO_0000050> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://purl.obolibrary.org/obo/BFO_0000066> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://purl.obolibrary.org/obo/ECO_0000315> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/ECO_0000353> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0003674> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0005515> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/RO_0002233> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://purl.obolibrary.org/obo/RO_0002418> a <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+<http://purl.obolibrary.org/obo/EMAPA_16105> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0005634> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/EMAPA_18767> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0010467> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/CL_0000746> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0106222> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0000977> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0048771> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0035098> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0040029> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0014898> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0051347> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://identifiers.org/mgi/MGI:107940> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0022618> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://identifiers.org/mgi/MGI:3826586> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0051567> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0070734> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://identifiers.org/mgi/MGI:1196256> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://purl.obolibrary.org/obo/GO_0098532> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://identifiers.org/mgi/MGI:5624990> a <http://www.w3.org/2002/07/owl#Class> .
+
+<http://model.geneontology.org/6197061700000903> <http://geneontology.org/lego/modelstate> "production" ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<https://w3id.org/biolink/vocab/in_taxon> <http://purl.obolibrary.org/obo/NCBITaxon_10090> ;
+	a <http://www.w3.org/2002/07/owl#Ontology> ;
+	<http://purl.org/dc/elements/1.1/title> "PMID:27618650 Chaer1 mouse"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000906> <http://geneontology.org/lego/hint/layout/x> "465"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "140"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0048771> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000907> <http://geneontology.org/lego/hint/layout/x> "1058"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "691"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000908> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://model.geneontology.org/6197061700000903/6197061700000912> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000908> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000909> <http://geneontology.org/lego/hint/layout/x> "1034"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "518"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000910> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://model.geneontology.org/6197061700000903/6197061700000911> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000910> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000911> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/EMAPA_16105> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000912> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/EMAPA_18767> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000913> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000914> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000915> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000916> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000917> <http://geneontology.org/lego/hint/layout/x> "997"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "359"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000918> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://model.geneontology.org/6197061700000903/6197061700000919> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000918> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000919> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/CL_0000746> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000920> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000921> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000922> <http://geneontology.org/lego/hint/layout/x> "980"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "208"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000923> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://model.geneontology.org/6197061700000903/6197061700000924> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000923> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000924> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005634> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000925> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000926> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000927> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:3826586> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000928> <http://geneontology.org/lego/hint/layout/x> "940"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "53"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000927> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://model.geneontology.org/6197061700000903/6197061700000929> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000929> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005634> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000930> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000931> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000932> <http://geneontology.org/lego/hint/layout/x> "692"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "723"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0014898> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000933> <http://geneontology.org/lego/hint/layout/x> "414"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "736"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000934> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/6197061700000903/6197061700000932> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000934> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000935> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000936> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000942> <http://geneontology.org/lego/hint/layout/x> "401"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "642"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000943> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/6197061700000903/6197061700000944> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000943> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000944> <http://geneontology.org/lego/hint/layout/x> "680"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "645"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0010467> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000945> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000946> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000957> <http://geneontology.org/lego/hint/layout/x> "718"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "235"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://model.geneontology.org/6197061700000903/639bc18f00000325> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0051347> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000958> <http://geneontology.org/lego/hint/layout/x> "430"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "248"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000959> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/RO_0002418> <http://model.geneontology.org/6197061700000903/6197061700000957> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000959> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000960> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000969> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:107940> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000970> <http://geneontology.org/lego/hint/layout/x> "190"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "56"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000969> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://model.geneontology.org/6197061700000903/6197061700000971> , <http://model.geneontology.org/6197061700000903/6197061700000990> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0106222> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000971> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000972> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000973> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000979> <http://geneontology.org/lego/hint/layout/x> "203"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "474"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000980> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000066> <http://model.geneontology.org/6197061700000903/6197061700000981> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005515> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000980> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000981> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035098> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000982> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "UniProtKB:Q61188"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000353> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000983> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "UniProtKB:Q61188"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000353> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000985> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:1196256> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000986> <http://geneontology.org/lego/hint/layout/x> "179"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "274"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000985> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/RO_0002233> <http://model.geneontology.org/6197061700000903/6197061700000987> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0106222> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000987> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:3826586> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000988> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000989> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000990> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:3826586> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000991> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://purl.obolibrary.org/obo/ECO_0000314> , <http://www.w3.org/2002/07/owl#NamedIndividual> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000994> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:3826586> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000995> <http://geneontology.org/lego/hint/layout/x> "158"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "661"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000994> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0005515> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000996> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "UniProtKB:Q6ZQ88"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000353> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000997> <http://geneontology.org/lego/hint/layout/x> "4406.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0022618> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000998> <http://geneontology.org/lego/hint/layout/x> "2634.375"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "381.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700000999> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/6197061700000903/6197061700000997> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700000999> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001000> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001001> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001002> <http://geneontology.org/lego/hint/layout/x> "4012.5"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "75"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0000977> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001003> <http://geneontology.org/lego/hint/layout/x> "2240.625"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "381.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700001004> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/6197061700000903/6197061700001002> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001004> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001005> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001006> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001007> <http://geneontology.org/lego/hint/layout/x> "1270"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "260"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0040029> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001008> <http://geneontology.org/lego/hint/layout/x> "1846.875"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "381.25"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700001009> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/6197061700000903/6197061700001007> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001009> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001010> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001011> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001012> <http://geneontology.org/lego/hint/layout/x> "655"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/hint/layout/y> "30"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.obolibrary.org/obo/RO_0002333> <http://model.geneontology.org/6197061700000903/6197061700001013> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://purl.obolibrary.org/obo/BFO_0000050> <http://model.geneontology.org/6197061700000903/6197061700000906> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0003674> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> , "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001013> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://identifiers.org/mgi/MGI:5624990> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001014> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/6197061700001015> <http://purl.org/pav/providedBy> "http://informatics.jax.org"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/639bc18f00000321> <http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/639bc18f00000325> <http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/GO_0035098> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://model.geneontology.org/6197061700000903/639bc18f00000326> <http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://geneontology.org/lego/evidence-with> "MGI:MGI:5905817"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	a <http://www.w3.org/2002/07/owl#NamedIndividual> , <http://purl.obolibrary.org/obo/ECO_0000315> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/source> "PMID:27618650"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://purl.org/dc/elements/1.1/title> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/contributor> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/date> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://purl.org/dc/elements/1.1/source> a <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+_:t1652714 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000915> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000907> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000912> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652715 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000931> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000928> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000927> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652716 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000936> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000050> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000933> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000932> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652717 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000935> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000933> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000934> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652718 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000946> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000050> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000942> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000944> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652719 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000945> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000942> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000943> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652720 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/639bc18f00000326> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002233> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000957> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/639bc18f00000325> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652721 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000960> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000958> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000959> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652722 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/639bc18f00000321> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002418> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000958> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000957> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0002-9796-7693"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2022-12-20"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652723 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000973> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002233> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000970> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000971> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652724 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000991> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002233> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000970> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000990> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652725 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000916> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000907> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000908> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652726 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000972> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000970> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000969> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652727 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000982> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000979> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000981> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652728 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000983> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000979> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000980> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652729 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000989> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002233> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000986> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000987> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652730 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000988> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000986> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000985> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652731 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000996> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000995> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000994> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652732 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001001> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000050> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000998> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000997> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652733 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001000> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000998> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000999> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652734 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001006> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000050> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700001003> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700001002> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652735 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001005> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700001003> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700001004> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652736 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000913> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000909> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000911> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652737 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001011> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000050> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700001008> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700001007> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652738 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001010> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700001008> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700001009> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652739 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001015> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000050> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700001012> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000906> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652740 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700001014> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700001012> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700001013> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652741 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000914> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000909> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000910> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652742 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000920> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000917> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000919> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652743 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000921> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000917> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000918> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652744 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000925> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000922> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000924> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652745 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000926> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/RO_0002333> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000922> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000923> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+_:t1652746 <http://geneontology.org/lego/evidence> <http://model.geneontology.org/6197061700000903/6197061700000930> ;
+	<http://purl.org/pav/providedBy> "http://informatics.jax.org" ;
+	<http://www.w3.org/2002/07/owl#annotatedProperty> <http://purl.obolibrary.org/obo/BFO_0000066> ;
+	<http://www.w3.org/2002/07/owl#annotatedSource> <http://model.geneontology.org/6197061700000903/6197061700000928> ;
+	<http://www.w3.org/2002/07/owl#annotatedTarget> <http://model.geneontology.org/6197061700000903/6197061700000929> ;
+	a <http://www.w3.org/2002/07/owl#Axiom> ;
+	<http://purl.org/dc/elements/1.1/contributor> "https://orcid.org/0000-0003-3394-9805"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://purl.org/dc/elements/1.1/date> "2021-11-23"^^<http://www.w3.org/2001/XMLSchema#string> .

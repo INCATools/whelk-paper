@@ -6,6 +6,7 @@ import scala.jdk.CollectionConverters._
 import org.semanticweb.owlapi.model.OWLClassExpression
 import org.semanticweb.owlapi.model.OWLOntology
 import org.semanticweb.owlapi.model.parameters.Imports
+import org.semanticweb.owlapi.model.IRI
 import org.semanticweb.owlapi.model.OWLClass
 import org.semanticweb.owlapi.model.OWLObjectSomeValuesFrom
 import org.semanticweb.owlapi.model.OWLObjectIntersectionOf
@@ -65,7 +66,7 @@ object OntologyExpressions {
   ) = {
     val ontology = OWLManager
       .createOWLOntologyManager()
-      .loadOntologyFromOntologyDocument(new File(ontologyFile))
+      .loadOntology(IRI.create(new File(ontologyFile)))
     val reasoner = reasonerFactory.createReasoner(ontology)
     reasoner.precomputeInferences(InferenceType.CLASS_HIERARCHY)
     val expressions = getQueriesFromOntologyExpressions(ontology)
@@ -91,6 +92,7 @@ object OntologyExpressions {
     val average = (times.sum) * 1.0 / runs.toDouble
     println(s"average: $average")
     println(s"parallelism: $parallelism")
+    reasoner.dispose()
   }
 
   def querySequentially(

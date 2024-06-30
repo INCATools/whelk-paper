@@ -4,6 +4,7 @@
 
 import java.io.File
 import org.semanticweb.owlapi.apibinding.OWLManager
+import org.semanticweb.owlapi.model.IRI
 import org.semanticweb.owlapi.reasoner.InferenceType
 import org.semanticweb.owlapi.reasoner.OWLReasonerFactory
 import scribe.Level
@@ -29,12 +30,12 @@ object TimeClassification {
       ontologyFile: String,
       reasonerFactory: OWLReasonerFactory
   ) = {
-    val runs = 3
+    val runs = 10
     val discard = 2
     val totalRuns = runs + discard
     val ontology = OWLManager
       .createOWLOntologyManager()
-      .loadOntologyFromOntologyDocument(new File(ontologyFile))
+      .loadOntology(IRI.create(new File(ontologyFile)))
     println("runs:")
     val times = for {
       run <- 0 until totalRuns

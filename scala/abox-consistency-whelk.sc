@@ -5,6 +5,7 @@
 //> using dep "dev.zio::zio-streams:2.1.4"
 
 import scala.jdk.CollectionConverters._
+import org.semanticweb.owlapi.model.IRI
 import org.semanticweb.owlapi.model.OWLClassExpression
 import org.semanticweb.owlapi.model.OWLOntology
 import org.semanticweb.owlapi.model.parameters.Imports
@@ -54,7 +55,7 @@ val modelsFolder = args(1)
 val parallelism = args(2).toInt
 val manager = OWLManager
   .createOWLOntologyManager()
-val ontology = manager.loadOntologyFromOntologyDocument(new File(ontologyFile))
+val ontology = manager.loadOntology(IRI.create(new File(ontologyFile)))
 val whelk = Reasoner.assert(Bridge.ontologyToAxioms(ontology))
 val models = new File(modelsFolder)
   .listFiles()

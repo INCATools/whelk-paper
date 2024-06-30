@@ -8,6 +8,7 @@ import scala.jdk.CollectionConverters._
 import org.semanticweb.owlapi.model.OWLClassExpression
 import org.semanticweb.owlapi.model.OWLOntology
 import org.semanticweb.owlapi.model.parameters.Imports
+import org.semanticweb.owlapi.model.IRI
 import org.semanticweb.owlapi.model.OWLClass
 import org.semanticweb.owlapi.model.OWLObjectSomeValuesFrom
 import org.semanticweb.owlapi.model.OWLObjectIntersectionOf
@@ -40,7 +41,7 @@ val ontologyFile = args(0)
 val modelsFolder = args(1)
 val parallelism = args(2).toInt
 val manager = OWLManager.createConcurrentOWLOntologyManager()
-val ontology = manager.loadOntologyFromOntologyDocument(new File(ontologyFile))
+val ontology = manager.loadOntology(IRI.create(new File(ontologyFile)))
 val reasoner = new ElkReasonerFactory().createReasoner(ontology)
 val models = new File(modelsFolder)
   .listFiles()
@@ -96,3 +97,4 @@ val times = for {
 }
 val average = (times.sum) * 1.0 / runs.toDouble
 println(s"average: $average")
+reasoner.dispose()
