@@ -1,7 +1,7 @@
 //> using scala "2.13"
 //> using dep "net.sourceforge.owlapi:owlapi-distribution:4.5.29"
 //> using dep "com.outr::scribe-slf4j2:3.15.0"
-//> using dep "org.geneontology::whelk-owlapi:1.1.2"
+//> using dep "org.geneontology::whelk-owlapi:1.2.1"
 //> using dep "dev.zio::zio-streams:2.1.4"
 
 import scala.jdk.CollectionConverters._

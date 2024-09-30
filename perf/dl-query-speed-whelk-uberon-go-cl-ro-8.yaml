@@ -1,12 +1,12 @@
 query_count: 66169
-  - total_time: 7.757764208
-    queries_per_second: 8529.390456565421
+  - total_time: 7.615574542
+    queries_per_second: 8688.641892358488
     total_subclasses_result: 1526774
-  - total_time: 7.672512875
-    queries_per_second: 8624.16278447757
+  - total_time: 7.567250667
+    queries_per_second: 8744.126884623525
     total_subclasses_result: 1526774
-  - total_time: 7.397184667
-    queries_per_second: 8945.159946484813
+  - total_time: 7.542833333
+    queries_per_second: 8772.432994178687
     total_subclasses_result: 1526774
-average: 8699.571062509269
+average: 8735.067257053566
 parallelism: 8

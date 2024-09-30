@@ -1,5 +1,5 @@
 //> using scala "2.13"
-//> using dep "org.geneontology::whelk-owlapi:1.1.2"
+//> using dep "org.geneontology::whelk-owlapi:1.2.1"
 //> using dep "io.github.liveontologies:elk-owlapi:0.6.0"
 //> using dep "com.outr::scribe-slf4j2:3.15.0"
 
@@ -12,6 +12,7 @@ import org.semanticweb.elk.owlapi.ElkReasonerFactory
 //import au.csiro.snorocket.owlapi.SnorocketReasonerFactory
 import org.semanticweb.owlapi.apibinding.OWLManager
 import org.semanticweb.owlapi.reasoner.InferenceType
+import org.semanticweb.owlapi.model.IRI
 
 scribe.Logger.root
   .clearHandlers()
@@ -30,7 +31,7 @@ def time[T](operation: => T): (T, Double) = {
 val ontologyFile = args(0)
 val ontology = OWLManager
   .createOWLOntologyManager()
-  .loadOntologyFromOntologyDocument(new File(ontologyFile))
+  .loadOntology(IRI.create(new File(ontologyFile)))
 val elk = new ElkReasonerFactory().createReasoner(ontology)
 val classes = ontology.getClassesInSignature().asScala.toSet
 val elkSubsumptions = classes.flatMap { c =>
